@@ -1,3 +1,7 @@
+# Screen density
+PRODUCT_AAPT_CONFIG := normal hdpi xhdpi
+PRODUCT_AAPT_PREF_CONFIG := xhdpi
+
 LOCAL_PATH := device/samsung/a33g
 PRODUCT_MAKEFILES := \
 	$(LOCAL_DIR)/rr_a33g.mk \
